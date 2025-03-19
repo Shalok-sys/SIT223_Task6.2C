@@ -30,7 +30,7 @@ pipeline {
                     echo "JUnit tests individual components of the application to verify correctness."
                     echo "Integration tests using Selenium will check if different components work together."
                 }
-            }
+            } //
             post {
                 success {
                     emailext subject: "Jenkins - Unit & Integration Tests Passed",
