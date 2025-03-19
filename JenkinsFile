@@ -21,7 +21,7 @@ pipeline {
                     echo "This step ensures that the code compiles correctly before further processing."
                 }
             }
-        } 
+        } // This is addition
 // This is something trying again. Another test.. 
         stage('Unit & Integration Tests') {
             steps {
