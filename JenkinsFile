@@ -4,7 +4,7 @@ pipeline {
     environment {
         GIT_REPO = 'https://github.com/Shalok-sys/SIT223_Task6.2C.git'  
     }
-// Adding something
+// Adding something 1
     stages {
 
         stage('Checkout Code') {
